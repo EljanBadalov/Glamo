@@ -325,10 +325,10 @@
     text-align: start;
   }
   .header .header-texts h1 {
-    font-size: 2.2rem;
+    font-size: 1.9rem;
   }
   .header .header-texts p {
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
   .header .header-texts a {
     padding: 0.6rem 3rem;
@@ -336,7 +336,7 @@
   }
   .header .image {
     margin: 0 0 0 2rem;
-    width: 25%;
+    width: 50%;
   }
 }
 @media (min-width: 864px) and (max-width: 1024px) {
