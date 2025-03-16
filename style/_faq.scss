@@ -1,0 +1,116 @@
+.faq {
+  width: 100%;
+  padding: 7rem 2rem 2rem;
+  h1 {
+    font-size: 2rem;
+    font-weight: 900;
+    color: var(--primary-color);
+    margin-bottom: 1.3rem;
+  }
+  .container {
+    width: 100%;
+    .wrapper {
+      background-color: #ffffff;
+      margin-bottom: 20px;
+      padding: 15px 40px;
+      border-radius: 5px;
+      box-shadow: 0 15px 25px rgba(0, 0, 50, 0.2);
+      .toggle,
+      .content {
+        font-family: "Poppins", sans-serif;
+        text-align: start;
+      }
+      .toggle {
+        width: 100%;
+        background-color: transparent;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-size: 16px;
+        color: #111130;
+        font-weight: 500;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        padding: 15px 0;
+      }
+      .content {
+        position: relative;
+        font-size: 14px;
+        text-align: justify;
+        line-height: 30px;
+        height: 0;
+        overflow: hidden;
+        transition: all 0.5s;
+      }
+    }
+  }
+}
+
+/* Phones and small tablets (481px - 768px) */
+@media (min-width: 481px) and (max-width: 768px) {
+  .faq {
+    padding: 8rem 3rem;
+    h1 {
+      font-size: 2.3rem;
+      margin-bottom: 1.3rem;
+    }
+  }
+}
+
+@media (min-width: 590px) and (max-width: 768px) {
+  .faq {
+    h1 {
+      font-size: 2.8rem;
+      margin-bottom: 1.3rem;
+    }
+  }
+}
+
+/* Tablets and small laptops (769px - 1024px) */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .faq {
+    padding: 12rem 4rem 4rem;
+    h1 {
+      font-size: 2.8rem;
+      margin-bottom: 1.3rem;
+    }
+  }
+}
+@media (min-width: 864px) and (max-width: 1024px) {
+  .faq {
+    padding: 5rem 4rem;
+    h1 {
+      font-size: 2.8rem;
+      margin-bottom: 1.3rem;
+    }
+  }
+}
+
+/* Laptops and desktops (1025px - 1366px) */
+@media (min-width: 1025px) and (max-width: 1366px) {
+  .faq {
+    padding: 11rem 4rem 4rem;
+    h1 {
+      font-size: 3rem;
+    }
+  }
+}
+
+@media (min-width: 1224px) and (max-width: 1366px) {
+  .faq {
+    h1 {
+      font-size: 3.5rem;
+    }
+  }
+}
+
+/* Large screens (1367px and above) */
+@media (min-width: 1367px) {
+  .faq {
+    padding: 7.5rem 9rem 4rem;
+    h1 {
+      font-size: 3.5rem;
+    }
+  }
+}

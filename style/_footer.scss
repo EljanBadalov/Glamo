@@ -1,0 +1,139 @@
+footer {
+  padding: 3rem 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  background-color: var(--primary-color);
+  text-align: center;
+  h1 {
+    font-size: 1.5rem;
+    color: var(--background-color);
+  }
+  p {
+    font-size: 1.2rem;
+    color: var(--background-color);
+  }
+  div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    a {
+      i {
+        font-size: 1.5rem;
+        color: var(--background-color);
+        transition: 0.5s ease;
+        &:hover {
+          color: #bbb7e0;
+          transition: 0.5s ease;
+        }
+      }
+    }
+  }
+  span {
+    font-size: 1rem;
+    color: #bbb7e0;
+  }
+}
+
+/* Phones and small tablets (481px - 768px) */
+@media (min-width: 481px) and (max-width: 768px) {
+  footer {
+    padding: 4rem 3rem;
+    gap: 2rem;
+    h1 {
+      font-size: 1.6rem;
+    }
+    p {
+      font-size: 1.3rem;
+    }
+    div {
+      gap: 1.1rem;
+      a {
+        i {
+          font-size: 2rem;
+        }
+      }
+    }
+    span {
+      font-size: 1.1rem;
+    }
+  }
+}
+
+/* Tablets and small laptops (769px - 1024px) */
+@media (min-width: 769px) and (max-width: 1024px) {
+  footer {
+    padding: 5rem 4rem;
+    gap: 2.5rem;
+    h1 {
+      font-size: 1.8rem;
+    }
+    p {
+      font-size: 1.4rem;
+    }
+    div {
+      gap: 1rem;
+      a {
+        i {
+          font-size: 2.2rem;
+        }
+      }
+    }
+    span {
+      font-size: 1.2rem;
+    }
+  }
+}
+
+/* Laptops and desktops (1025px - 1366px) */
+@media (min-width: 1025px) and (max-width: 1366px) {
+  footer {
+    padding: 5rem 4rem;
+    gap: 2.5rem;
+    h1 {
+      font-size: 1.8rem;
+    }
+    p {
+      font-size: 1.4rem;
+    }
+    div {
+      gap: 1rem;
+      a {
+        i {
+          font-size: 2.2rem;
+        }
+      }
+    }
+    span {
+      font-size: 1.2rem;
+    }
+  }
+}
+
+/* Large screens (1367px and above) */
+@media (min-width: 1367px) {
+  footer {
+    padding: 4rem 3rem;
+    gap: 2.5rem;
+    h1 {
+      font-size: 1.8rem;
+    }
+    p {
+      font-size: 1.4rem;
+    }
+    div {
+      gap: 1rem;
+      a {
+        i {
+          font-size: 2.2rem;
+        }
+      }
+    }
+    span {
+      font-size: 1.2rem;
+    }
+  }
+}

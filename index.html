@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/flickity/2.2.2/flickity.min.css"
+    />
+    <link rel="icon" type="image/png" href="./icons/logo.png" />
+    <title>Glamo</title>
+  </head>
+  <body>
+    <nav class="nav-bar topToBottom">
+      <a href="#" class="logo"><img src="./icons/logo.png" alt="" />Glamo</a>
+      <div class="list">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#use">Necə istifadə edilir?</a></li>
+          <li><a href="#advantages">Üstünlüklər</a></li>
+          <li><a href="#contact-us">Əlaqə</a></li>
+          <li><a href="#faq">Tez-tez verilən suallar</a></li>
+          <li><button>Xidmətinizi əlavə edin</button></li>
+        </ul>
+      </div>
+      <div class="nav-toggle">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
+    </nav>
+
+    <!-- Home Page -->
+    <header class="header" id="home">
+      <div class="header-texts">
+        <h1 class="topToBottom">Gözəlliyə gedən yolda sıra gözləməyin</h1>
+        <p class="topToBottom">
+          Glamo gözəllik və baxım xidmətlərini bir araya gətirən müasir və
+          istifadəçi dostu bir platformadır. Bərbərlər, gözəllik salonları və
+          digər gözəllik xidmətləri üçün rezervasiya və idarəetmə imkanları
+          təklif edir.
+        </p>
+        <a href="#" class="topToBottom">Go to app</a>
+      </div>
+      <img
+        src="./images/header.png"
+        alt="image for header"
+        class="image opacityEffect"
+      />
+    </header>
+
+    <!-- Use Mothods Page -->
+    <section class="use-metod" id="use">
+      <h1 class="leftToRight">Necə istifadə edilir?</h1>
+      <div class="metods">
+        <ul>
+          <li class="leftToRight">&rarr; Tətibiqi yükləyin və qeydiyyatdan keçin</li>
+          <li class="leftToRight">&rarr; Sizə uyğun xidmət növünü seçin və uyğun salonu seçin</li>
+          <li class="leftToRight">&rarr; Onlayın növbə götürün</li>
+          <li class="leftToRight">&rarr; Növbədən öncə xəbərdarlıq əldə edin</li>
+          <li class="leftToRight">
+            &rarr; Aldığınız xidmət səviyyəsini qısa sorğu vasitəsilə göndərin
+          </li>
+        </ul>
+        <div class="slider opacityEffect">
+          <div class="carousel">
+            <img src="./images/register.svg" alt="Slide 1" />
+            <img src="./images/service.svg" alt="Slide 2" />
+            <img src="./images/reservation.svg" alt="Slide 3" />
+            <img src="./images/Notifications.svg" alt="Slide 4" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Advantages Page -->
+    <div class="adventages" id="adventages">
+      <h2 class="leftToRight">Üstünlüklərimiz</h2>
+      <div class="grid">
+        <div class="card leftToRight">
+          <div class="icon blue">
+            <img src="./icons/Clock.svg" alt="icon" />
+          </div>
+          <p>Vaxta qənaət</p>
+        </div>
+        <div class="card leftToRight">
+          <div class="icon orange">
+            <img src="./icons/Mobile_Button.png" alt="icon" />
+          </div>
+          <p>Sadə vizual interfeys</p>
+        </div>
+        <div class="card leftToRight">
+          <div class="icon purple">
+            <img src="./icons/Bell.svg" alt="icon" />
+          </div>
+          <p>Ani mövcudluq bildirişləri</p>
+        </div>
+        <div class="card leftToRight">
+          <div class="icon yellow">
+            <img src="./icons/Arrows_Reload_01.svg" alt="icon" />
+          </div>
+          <p>İşinizi asanlaşdıracaq daimi yeniliklər</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Contact Us Page-->
+    <section class="contact" id="contact-us">
+      <div class="contact-info">
+        <h1 class="leftToRight">Bizimlə əlaqə saxla</h1>
+        <div class="leftToRight">
+          <p>Bizə mail yazın</p>
+          <span>glamosupport@gmail.com</span>
+        </div>
+        <div class="leftToRight">
+          <p>Bizi sosial mediada izləyin</p>
+          <span>Faceebok, instagram, Linkedin, Youtube</span>
+        </div>
+      </div>
+      <form action="submit" class="leftToRight">
+        <h6>Formu doldurun, biz sizinlə əlaqə saxlayaq!</h6>
+        <span>Ad və soyad</span>
+        <input type="text" placeholder="Ad və soyad" />
+        <span>Telefon nömrəsi</span>
+        <input type="text" placeholder="Telefon nömrəsi" />
+        <span>E-poçt ünvanı</span>
+        <input type="email" placeholder="E-poçt ünvanı" />
+        <button>Təsdiqlə</button>
+      </form>
+    </section>
+
+    <!-- Faq Page -->
+
+    <section class="faq" id="faq">
+      <h1 class="leftToRight">Tez-tez verilən suallar</h1>
+      <div class="container">
+        <div class="wrapper leftToRight">
+          <button class="toggle">
+            Glamo nədir?
+            <i class="fas fa-plus icon"></i>
+          </button>
+          <div class="content">
+            <p>
+              Glamo onlayn şəkildə olduğunuz civarda və ya yaşadığınız ərazidə
+              Bərbər, Gözəllik salonu və.s kimi xidmətlərin rahatlıqla onlayn
+              rezervasiyası üçün nəzərdə tutulmuş proqramdır. Bu tətbiq
+              vasitəsilə saniyələr içində saatlarınıza qənaət edin.
+            </p>
+          </div>
+        </div>
+        <div class="wrapper leftToRight">
+          <button class="toggle">
+            Glamo ödənişlidir?
+            <i class="fas fa-plus icon"></i>
+          </button>
+          <div class="content">
+            <p>Müştərilər üçün tətbiqdən istifadə tamamilə ödənişsizdir.</p>
+          </div>
+        </div>
+        <div class="wrapper leftToRight">
+          <button class="toggle">
+            Hansı xidmətlərin onlayn növbəsi mövcuddur?
+            <i class="fas fa-plus icon"></i>
+          </button>
+          <div class="content">
+            <p>
+              Bərbər, Gözəllik salonu, Masaj, Tatoo-piercing, Dırnaq baxımış
+            </p>
+          </div>
+        </div>
+        <div class="wrapper leftToRight">
+          <button class="toggle">
+            Hər hansı çətinliklə üzləşdikdə kimə müraciət edə bilərəm?
+            <i class="fas fa-plus icon"></i>
+          </button>
+          <div class="content">
+            <p>
+              7/24 suallarınıza cavab ala biləcəyiniz cağrı mərkəzimizə və ya AI
+              assistantımıza uyğun suallarla müraciət edə bilərsiniz.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <h1 class="logo bottomToTop">Glamo</h1>
+      <p class="bottomToTop">Gözəlliyə gedən yolda sıra gözləməyin</p>
+      <div class="bottomToTop">
+        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+      </div>
+      <span class="bottomToTop">© 2025 Up Business by Glamo | All Rights Reserved</span>
+    </footer>
+
+    <script>
+      ScrollReveal().reveal(".leftToRight", {
+        origin: "left",
+        distance: "100px",
+        delay: 100,
+        easing: "ease-in-out",
+        reset: true,
+      });
+
+      ScrollReveal().reveal(".rightToLeft", {
+        origin: "right",
+        distance: "100px",
+        delay: 100,
+        easing: "ease-in-out",
+        reset: true,
+      });
+
+      ScrollReveal().reveal(".topToBottom", {
+        origin: "top",
+        distance: "100px",
+        delay: 100,
+        easing: "ease-in-out",
+        reset: true,
+      });
+
+      ScrollReveal().reveal(".bottomToTop", {
+        origin: "bottom",
+        distance: "100px",
+        delay: 100,
+        easing: "ease-in-out",
+        reset: true,
+      });
+
+      /* Sadece .opacityEffect olan öğelere özel */
+      ScrollReveal().reveal(".opacityEffect", {
+        beforeReveal: function (el) {
+          el.style.opacity = "1"; // Scroll olunca görünür hale getir
+          el.style.transition = "opacity 0.8s ease-out"; // Geçiş efekti ekle
+        },
+        beforeReset: function (el) {
+          el.style.opacity = "0"; // Geri yukarı çıkınca tekrar kaybolsun
+        },
+        opacity: 0, // İlk başta görünmez olacak
+        duration: 1000,
+        delay: 1000,
+        easing: "ease-in-out",
+        reset: true,
+      });
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flickity/2.2.2/flickity.pkgd.min.js"></script>
+    <script src="./main.js"></script>
+  </body>
+</html>

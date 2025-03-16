@@ -1,0 +1,392 @@
+.contact {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 7rem 2rem 2rem;
+
+  .contact-info {
+    width: 100%;
+    h1 {
+      font-size: 2rem;
+      font-weight: 900;
+      color: var(--primary-color);
+      margin-bottom: 1.3rem;
+    }
+
+    div {
+      margin-bottom: 1rem;
+      &:last-child {
+        margin-bottom: 1.2rem;
+      }
+      p {
+        font-size: 1rem;
+        font-weight: 900;
+        margin-bottom: 0.3rem;
+        color: var(--text-color);
+      }
+      span {
+        font-size: 1rem;
+        color: var(--secondary-color);
+      }
+    }
+  }
+  form {
+    width: 100%;
+    margin-top: 1rem;
+    padding: 1rem;
+    border-radius: 0.6rem;
+    background-color: var(--soft-mist);
+    h6 {
+      font-size: 1rem;
+      font-weight: 900;
+      margin-bottom: 1rem;
+      color: var(--secondary-color);
+    }
+    span {
+      font-size: 0.8rem;
+      font-weight: 400;
+      color: var(--text-color);
+    }
+    input {
+      width: 100%;
+      padding: 0.6rem 0.5rem;
+      margin-top: 0.4rem;
+      border: 0.1rem solid var(--primary-color);
+      border-radius: 0.6rem;
+      outline: none;
+      transition: 0.5s ease;
+      &::placeholder{
+        font-size: 1rem;
+      }
+      &:focus {
+        border-color: var(--secondary-color);
+        transition: 0.5s ease;
+      }
+      &:not(:last-child) {
+        margin-bottom: 1rem;
+      }
+    }
+    button {
+      padding: 0.6rem 1.5rem;
+      border: 0.1rem solid var(--primary-color);
+      border-radius: 0.6rem;
+      background-color: var(--primary-color);
+      font-size: 0.9rem;
+      color: var(--background-color);
+      cursor: pointer;
+      &:not(:last-child) {
+        margin-bottom: 1rem;
+      }
+      &:hover {
+        background-color: var(--background-color);
+        color: var(--primary-color);
+        transition: 0.5s ease;
+      }
+    }
+  }
+}
+
+/* Phones and small tablets (481px - 768px) */
+@media (min-width: 481px) and (max-width: 768px) {
+  .contact {
+    width: 100%;
+    display: flex;
+    padding: 6.5rem 3rem 3rem;
+    .contact-info {
+      width: 100%;
+      h1 {
+        font-size: 2.4rem;
+        margin-bottom: 1.3rem;
+      }
+
+      div {
+        margin-bottom: 1rem;
+        &:last-child {
+          margin-bottom: 1.3rem;
+        }
+        p {
+          font-size: 1.3rem;
+          margin-bottom: 0.5rem;
+        }
+        span {
+          font-size: 1rem;
+        }
+      }
+    }
+    form {
+      width: 100%;
+      margin-top: 1rem;
+      padding: 3rem;
+      h6 {
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+      }
+      span {
+        font-size: 1.1rem;
+      }
+      input {
+        width: 100%;
+        padding: 1.1rem 1rem;
+        margin-top: 0.4rem;
+        &::placeholder{
+          font-size: 1rem;
+        }
+        &:focus {
+          border-color: var(--deep-ocean);
+          transition: 0.5s ease;
+        }
+        &:not(:last-child) {
+          margin-bottom: 1.2rem;
+        }
+      }
+      button {
+        padding: 0.9rem 2.4rem;
+        font-size: 1.1rem;
+      }
+    }
+  }
+}
+
+/* Tablets and small laptops (769px - 1024px) */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .contact {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12rem 4rem 4rem;
+    .contact-info {
+      width: 100%;
+      h1 {
+        font-size: 2.4rem;
+        margin-bottom: 1.3rem;
+      }
+
+      div {
+        margin-bottom: 1rem;
+        &:last-child {
+          margin-bottom: 1.3rem;
+        }
+        p {
+          font-size: 1.3rem;
+          margin-bottom: 0.5rem;
+        }
+        span {
+          font-size: 1rem;
+        }
+      }
+    }
+    form {
+      width: 100%;
+      margin-top: 1rem;
+      padding: 3rem;
+      h6 {
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+      }
+      span {
+        font-size: 1rem;
+        margin-bottom: 3rem;
+      }
+      input {
+        width: 100%;
+        padding: 0.8rem 0.7rem;
+        &:focus {
+          border-color: var(--deep-ocean);
+          transition: 0.5s ease;
+        }
+        &:not(:last-child) {
+          margin-bottom: 1rem;
+        }
+      }
+      button {
+        padding: 0.6rem 1.5rem;
+        font-size: 0.9rem;
+      }
+    }
+  }
+}
+@media (min-width: 864px) and (max-width: 1024px) {
+  .contact {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem 4rem;
+    .contact-info {
+      width: 100%;
+      h1 {
+        font-size: 2.4rem;
+        margin-bottom: 1.3rem;
+      }
+
+      div {
+        margin-bottom: 1rem;
+        &:last-child {
+          margin-bottom: 1.3rem;
+        }
+        p {
+          font-size: 1.3rem;
+          margin-bottom: 0.5rem;
+        }
+        span {
+          font-size: 1rem;
+        }
+      }
+    }
+    form {
+      width: 100%;
+      margin-top: 1rem;
+      padding: 3rem;
+      h6 {
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+      }
+      span {
+        font-size: 1rem;
+        margin-bottom: 3rem;
+      }
+      input {
+        width: 100%;
+        padding: 0.8rem 0.7rem;
+        &:focus {
+          border-color: var(--deep-ocean);
+          transition: 0.5s ease;
+        }
+        &:not(:last-child) {
+          margin-bottom: 1rem;
+        }
+      }
+      button {
+        padding: 0.6rem 1.5rem;
+        font-size: 0.9rem;
+      }
+    }
+  }
+}
+
+/* Laptops and desktops (1025px - 1366px) */
+@media (min-width: 1025px) and (max-width: 1366px) {
+  .contact {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 11rem 4rem 4rem;
+    .contact-info {
+      width: 100%;
+      h1 {
+        font-size: 3rem;
+        margin-bottom: 3rem;
+      }
+
+      div {
+        margin-bottom: 3rem;
+        &:last-child {
+          margin-bottom: 0;
+        }
+        p {
+          font-size: 2rem;
+          margin-bottom: 1rem;
+        }
+        span {
+          font-size: 1.4rem;
+        }
+      }
+    }
+    form {
+      width: 100%;
+      margin-top: 1rem;
+      padding: 3rem;
+      h6 {
+        font-size: 1.7rem;
+        margin-bottom: 1rem;
+      }
+      span {
+        font-size: 1rem;
+        margin-bottom: 3rem;
+      }
+      input {
+        width: 100%;
+        padding: 0.8rem 0.7rem;
+        &:focus {
+          border-color: var(--deep-ocean);
+          transition: 0.5s ease;
+        }
+        &:not(:last-child) {
+          margin-bottom: 1rem;
+        }
+      }
+      button {
+        padding: 0.6rem 1.5rem;
+        font-size: 0.9rem;
+      }
+    }
+  }
+}
+
+/* Large screens (1367px and above) */
+@media (min-width: 1367px) {
+  .contact {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 7.5rem 9rem 4rem;
+    .contact-info {
+      width: 100%;
+      h1 {
+        font-size: 3rem;
+        margin-bottom: 3rem;
+      }
+
+      div {
+        margin-bottom: 3rem;
+        &:last-child {
+          margin-bottom: 0;
+        }
+        p {
+          font-size: 2.1rem;
+          margin-bottom: 1.1rem;
+        }
+        span {
+          font-size: 1.4rem;
+        }
+      }
+    }
+    form {
+      width: 100%;
+      margin-top: 1rem;
+      padding: 3rem;
+      h6 {
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+      }
+      span {
+        font-size: 1rem;
+        margin-bottom: 3rem;
+      }
+      input {
+        width: 100%;
+        padding: 0.8rem 0.7rem;
+        &:focus {
+          border-color: var(--deep-ocean);
+          transition: 0.5s ease;
+        }
+        &:not(:last-child) {
+          margin-bottom: 1rem;
+        }
+      }
+      button {
+        padding: 0.6rem 1.5rem;
+        font-size: 0.9rem;
+      }
+    }
+  }
+}
