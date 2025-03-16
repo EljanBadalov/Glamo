@@ -1261,6 +1261,9 @@ footer {
   text-align: center;
 }
 footer h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-size: 1.5rem;
   color: var(--background-color);
 }
@@ -1341,6 +1344,10 @@ footer span {
   footer h1 {
     font-size: 1.8rem;
   }
+  footer h1 img {
+    width: 4rem;
+    height: 4rem;
+  }
   footer p {
     font-size: 1.4rem;
   }
@@ -1362,6 +1369,10 @@ footer span {
   }
   footer h1 {
     font-size: 1.8rem;
+  }
+  footer h1 img {
+    width: 4rem;
+    height: 4rem;
   }
   footer p {
     font-size: 1.4rem;

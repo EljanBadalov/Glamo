@@ -8,6 +8,9 @@ footer {
   background-color: var(--primary-color);
   text-align: center;
   h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 1.5rem;
     color: var(--background-color);
   }
@@ -95,6 +98,10 @@ footer {
     gap: 2.5rem;
     h1 {
       font-size: 1.8rem;
+      img{
+        width: 4rem;
+        height: 4rem;
+      }
     }
     p {
       font-size: 1.4rem;
@@ -120,6 +127,10 @@ footer {
     gap: 2.5rem;
     h1 {
       font-size: 1.8rem;
+      img{
+        width: 4rem;
+        height: 4rem;
+      }
     }
     p {
       font-size: 1.4rem;
