@@ -1,1 +1,1 @@
-### Glamo - Startup MVP
+# Glamo - Startup MVP
